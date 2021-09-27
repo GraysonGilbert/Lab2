@@ -15,7 +15,6 @@ try:
   pwm.start(0)
   while 1:
     for dc in range(101):
-      if dc < 100:
         pwm.ChangeDutyCycle(dc)
         sleep(0.01)
         if dc == 100:
