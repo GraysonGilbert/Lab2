@@ -24,4 +24,5 @@ try:
            sleep(0.01) 
 
 except KeyboardInterrupt:
+  GPIO.cleanup()
   print('\nExiting')
