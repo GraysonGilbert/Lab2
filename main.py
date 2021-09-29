@@ -49,8 +49,8 @@ def myCallback(pin):
 
 
 
-GPIO.add_event_detect(I1, GPIO.RISING, callback=myCallback, bouncetime=100)
-GPIO.add_event_detect(I2, GPIO.RISING, callback=myCallback, bouncetime=100)
+GPIO.add_event_detect(22, GPIO.RISING, callback=myCallback, bouncetime=10)
+GPIO.add_event_detect(27, GPIO.RISING, callback=myCallback, bouncetime=10)
 
 
 
