@@ -5,7 +5,7 @@ GPIO.setmode(GPIO.BCM)
 p1 = 25
 p2 = 12
 p3 = 16
-I1 = 4
+I1 = 22
 I2 = 27
 GPIO.setup(p1, GPIO.OUT)
 GPIO.setup(p2, GPIO.OUT)
