@@ -49,6 +49,7 @@ def myCallback(pin):
 
 
 
+
 GPIO.add_event_detect(22, GPIO.RISING, callback=myCallback, bouncetime=10)
 GPIO.add_event_detect(27, GPIO.RISING, callback=myCallback, bouncetime=10)
 
