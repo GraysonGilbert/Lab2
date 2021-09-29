@@ -22,7 +22,7 @@ in2 = GPIO.input(I2)
 
 def myCallback(pin):
 
-  if(pin == 4):
+  if(pin == 22):
     pwm = GPIO.PWM(p1, 100)
     pwm.start(0)
 
