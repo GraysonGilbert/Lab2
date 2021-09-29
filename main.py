@@ -14,8 +14,8 @@ GPIO.setup(p3, GPIO.OUT)
 GPIO.setup(I1, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
 GPIO.setup(I2, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
 
-in1 = GPIO.input(I1)
-in2 = GPIO.input(I2)
+#in1 = GPIO.input(I1)
+#in2 = GPIO.input(I2)
 
 #pwm1 = GPIO.PWM(p1, 100)
 #pwm2 = GPIO.PWM(p2, 100)
