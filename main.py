@@ -22,7 +22,7 @@ in2 = GPIO.input(I2)
 
 def myCallback(pin):
 
-  if pin == I1:
+  if(pin == 4):
     pwm = GPIO.PWM(p1, 100)
     pwm.start(0)
 
@@ -34,7 +34,7 @@ def myCallback(pin):
         for dc in range(101):
          pwm.ChangeDutyCycle(100 - dc)
          sleep(0.01) 
-  if pin == I2:
+  if(pin == 27):
     pwm = GPIO.PWM(p2, 100)
     pwm.start(0)
 
